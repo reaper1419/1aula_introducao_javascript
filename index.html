@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Jogo dos Cofres</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./styles/style.css'>
+</head>
+<body>
+    <h1> Jogo dos Cofres</h1>
+    <p class="instrucao">Apenas um dos cofres contém o prêmio! Escolha com sabedoria.</p>
+
+    <div class="arena">
+        <button class="botao-cofre" id="cofre1">Cofre 1 🧰</button>
+        <button class="botao-cofre" id="cofre2">Cofre 2 🧰</button>
+        <button class="botao-cofre" id="cofre3">Cofre 3 🧰</button>
+    </div>
+
+    <!-- Espaço para mensagens da rodada -->
+    <h2 id="mensagem">Escolha um cofre para começar!</h2>
+
+    <!-- Contadores de Tentativas e Vitórias -->
+    <div class="placar">
+        <p>Tentativas: <span id="totaltentativas">0</span></p>
+        <p>Vitórias: <span id="totalvitorias">0</span></p>
+    </div>
+
+    <!-- Botão de reiniciar a rodada -->
+    <button id="botaotentenovamente">Jogar Novamente 🔄</button>
+
+    <script src='./js/index.js'></script>
+</body>
+</html>
